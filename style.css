@@ -52,9 +52,13 @@ img {
     position: fixed;
     top: 0;
     padding: 0 30px;
+    transition: o.5s;
 
 }
 
+.navbar.top {
+    background: transparent;
+}
 .navbar a {
     color: #fff;
     padding: 10px 20px;
@@ -189,7 +193,28 @@ img {
     margin-top: 20px;
 
 }
+/* Post */
 
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+}
 /* Footer */
 
 .footer {
